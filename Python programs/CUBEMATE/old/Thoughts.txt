@@ -1,0 +1,15 @@
+THOUGHTS ON CUBEMATE
+
+
+----HOW TO STRUCTURE THE PROGRAM?----
+
+1. Record 10 sec of clip.
+2. Analyse it, checking for movement.
+3. If YES, save clip. If NO, delete
+4. Restart the cycle 
+
+----HAVE DIFFERENT NAMES FOR PICS---
+
+count = 0
+cv2.imwrite("frame%d.jpg" % count, image)     # save frame as JPEG file
+count += 1

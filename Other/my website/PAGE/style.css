@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 4500px;
+  background-color: #2D2C56;
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff
+}
+/*--------------HOMEPAGE-------------*/
+  div.homepage{
+    text-align: center;
+    height: 900px;
+    background-image: linear-gradient(180deg, rgba(45,44,86,0) 0%, rgba(45,44,86,0.25) 25%, rgba(45,44,86,0.5) 50%, rgba(45,44,86,0.75) 75%, rgba(45,44,86,1) 100%), url("homepage_background.jpg");
+    background-size:cover;
+    background-position: top;
+    color: #ffffff;
+  }
+div.homepage_frame{
+  display: inline-block;
+  height:700px;
+  margin: 20px;
+}
+div.homepage_content{
+  position: relative;
+  top: 100px;
+  height: 300px;
+  width: 700px;
+}
+div.homepage_content img{
+  position: relative;
+  right: 200px;
+}
+div.homepage_text{
+  text-align: left;
+  position: relative;
+  bottom: 300px;
+  left: 350px;
+  width: 250px;
+  }
+  div.homepage_text p{
+    width: 250px;
+}
+/*-------------SKILLS-----------*/
+div.skills {
+  text-align: center;
+  background-image: url("skills_background_down.png");
+  background-size: cover;
+  background-color: #446ca4;
+  height: 900px;
+}
+div.Skills_frame{
+  display: inline-block;
+  width: 1345px;
+  height: 768px;
+}
+/*-----------------hardskills*/
+div.hardskills{
+  text-align: left;
+  position: relative;
+  width: 650px;
+  height: 600px;
+  margin-left: 20px;
+  top: 100px;
+}
+div.python{
+  height:140px;
+}
+div.python_text{
+  text-align: left;
+  position: relative;
+  bottom: 70px;
+  left: 300px;
+  width:270px;
+  height:140px;
+}
+div.python img{
+  position: relative;
+  top: 35px;
+  left: 200px;
+}
+div.python_text h1{
+  line-height: 10px
+}
+div.sql{
+  height:140px;
+}
+div.sql img{
+  position: relative;
+  top: 35px;
+  left: 200px;
+}
+div.sql_text{
+  text-align: left;
+  position: relative;
+  bottom: 80px;
+  left: 300px;
+  width:270px;
+  height:140px;
+}
+div.sql_text h1{
+  line-height: 10px
+}
+div.linux{
+  height:140px;
+}
+div.linux img{
+  position: relative;
+  top: 35px;
+  left: 200px;
+}
+div.linux_text{
+  text-align: left;
+  position: relative;
+  bottom: 80px;
+  left: 300px;
+  width:270px;
+  height:140px;
+}
+div.scipy{
+  height:140px;
+}
+div.scipy img{
+  position: relative;
+  top: 35px;
+  left: 200px;
+}
+div.scipy_text{
+  text-align: left;
+  position: relative;
+  bottom: 80px;
+  left: 300px;
+  width:270px;
+  height:140px;
+}
+/*-----------------softskills*/
+div.softskills{
+  width: 650px;
+  height: 600px;
+  margin-right: 20px;
+  text-align: left;
+  position: relative;
+  left: 670px;
+  bottom:503px;
+}
+div.attention_details{
+  height:140px;
+}
+div.attention_details img{
+  position: relative;
+  top: 35px;
+  left: 100px;
+}
+div.attention_details_text{
+  text-align: left;
+  position: relative;
+  bottom: 80px;
+  left: 200px;
+  width:300px;
+  height:140px;
+}
+div.attention_details_text h1{
+  line-height: 10px;
+}
+div.attention_details_text p{
+  width: 250px;
+}
+div.problem_solver{
+  height:140px;
+}
+div.problem_solver img{
+  position: relative;
+  top: 35px;
+  left: 100px;
+}
+div.problem_solver_text{
+  text-align: left;
+  position: relative;
+  bottom: 80px;
+  left: 200px;
+  width:300px;
+  height:140px;
+}
+div.problem_solver_text h1{
+  line-height: 10px;
+}
+div.communication_skills{
+  height:140px
+}
+div.communication_skills img{
+  position: relative;
+  top: 35px;
+  left: 100px;
+}
+div.communication_skills_text{
+  text-align: left;
+  position: relative;
+  bottom: 80px;
+  left: 200px;
+  width:300px;
+  height:140px;
+}
+div.communication_skills_text h1 {
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+div.communication_skills_text p {
+}
+div.magical{
+  height:140px
+}
+div.magical img{
+  position: relative;
+  top: 35px;
+  left: 100px;
+}
+div.magical_text{
+  text-align: left;
+  position: relative;
+  bottom: 80px;
+  left: 200px;
+  width:300px;
+  height:140px;
+}
+div.magical_text h1{
+  line-height: 20px;
+}
+/*------------PROJECTS--------------*/
+div.projects {
+  text-align: center;
+  background-color: #2D2C56;
+  height: 900px;
+}
+.projects_frame{
+  display: inline-block;
+  width: 1345px;
+  height: 768px;
+}
+div.projects_text{
+  text-align: left;
+  width: 700px;
+  height: 768px;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+div.cubemate p{
+  width: 600px;
+}
+div.website p{
+  width:600px
+}
+div.webscraper p{
+  width:600px
+}
+div.project_pictures{
+  height: 768px;
+  width: 620px;
+  position: relative;
+  left: 720px;
+  bottom: 770px;
+}
+#cubemate_pic{
+  width: 380px;
+  height: 240px;
+}
+#website_pic {
+  width: 400px;
+  height: 240px;
+  position: relative;
+  bottom: 20px;
+  left: 75px;
+}
+#webscraper{
+  width: 400px;
+  height: 240px;
+  position: relative;
+  bottom: 60px;
+  right: 40px
+}
+/*------------DONE SO FAR------------*/
+div.done_so_far {
+  text-align: center;
+  background-color: #2D2C56;
+  height: 900px;
+}
+.done_so_far_frame{
+  display: inline-block;
+  width: 1345px;
+  height: 768px;
+}
+div.done_so_far_text{
+  text-align: left;
+  width: 700px;
+  height: 768px;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+#done_so_far_intro{
+  width:800px
+}
+div.compliance_text{
+  width: 700px;
+}
+div.roommate_text{
+  width: 700px;
+}
+div.via_degli_dei_text{
+  width: 700px;
+}
+div.done_so_far_pictures{
+  height: 768px;
+  width: 620px;
+  position: relative;
+  left: 720px;
+  bottom: 770px;
+}
+#compliance_pic{
+  width: 350px;
+  height: 280px;
+  position:relative;
+  left: 100px;
+}
+#roommate_pic{
+  width: 380px;
+  height: 240px;
+  position: relative;
+  right:100px;
+  bottom: 40px
+}
+#via_degli_dei_pic{
+  width: 380px;
+  height: 240px;
+  position: relative;
+  bottom: 80px;
+  left: 100px
+}
+
+/*-----------CONTACT ME--------------*/
+div.contact_me_main {
+  text-align: center;
+  background-color: #2D2C56;
+  height:800px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.contact_me_main_frame{
+  display: inline-block;
+  width: 1345px;
+  height: 768px;
+}
+
+.Contact_me_form{
+  text-align: left;
+  width: 500px;
+  height: 600px;
+  position: relative;
+  top: 150px;
+  left: 170px;
+}
+.personal_info{
+  text-align: left;
+  width: 500px;
+  height: 600px;
+  position:relative;
+  left: 670px;
+  bottom: 452px;
+}
+div.head_office p{
+width: 170px
+}
+
+div.first_name{
+  position: relative;
+  bottom: 15px
+}
+div.last_name{
+  position: relative;
+  bottom: 15px
+}
+div.email{
+  position: relative;
+  bottom: 15px
+}
+div.message{
+  position: relative;
+  bottom: 15px
+}
+#name{
+  width: 300px;
+}
+#email{
+  width: 300px;
+}
+#message{
+  width: 300px;
+  height: 150px
+}

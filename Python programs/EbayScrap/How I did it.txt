@@ -1,0 +1,8 @@
+
+issue01: I had to find a way to show me which ad is sponsored and which not so I could filter the sponsored and get
+links just from the not sponsored one 
+HOW I SOLVED IT: every sponsored has an element abobe that labels them as 'SPONSORED' I used the:
+"link.previous_element.previous_element!='SPONSORED'" code to take this element and put the conition link!=*this element*
+
+issue02: I have all the titles. I have to create a database. one solution is to create an array of tuples.
+HOW I SOLVED IT:

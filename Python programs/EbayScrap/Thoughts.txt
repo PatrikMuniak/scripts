@@ -1,0 +1,37 @@
+I have to change the code.
+-Open the serp
+- pich the ads 
+-open individual ad
+-take title, price and description
+
+Elements with this part seems to correspond, even not entirely,
+ to the ads present in the first page> "<h3 class="lvtitle"><a href=" *total of items with this characteristic are 61 
+while sponsored are 11. In the page, from what ebay says, there are 50 ads. 
+this means that if I-m able to exclude the sponsored I will get the 50 ads
+
+potential solution 1. soup.h3.a.findall('href')
+		
+
+		2. h3=soup.find_all('h3') 
+		   for link in h3:
+			 links=link.a.find_all('href')
+
+
+
+GET THE PRICE
+
+	<span class="notranslate" id="prcIsum" itemprop="price"  style="" content="200.0">£200.00</span>
+
+soup.find_all(span, class="notranslate", id="prcIsum", itemprop="price",  style="")
+
+
+GET THE TILE
+
+<p class="sbin-title">NOLOGO BLACK Single Speed Freewheel Road Bike Flip Flop hub bicycles Aluminium </p>
+
+soup.find_all(p, class="sbin-title")
+
+GET DESCRIPTION
+
+<meta Property="og:description" Content=
+

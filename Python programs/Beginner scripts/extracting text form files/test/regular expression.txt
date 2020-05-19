@@ -1,0 +1,3 @@
+\rPython classmethod()\rreturns class method for given function\r
+function name =     \rPython \anything()  ---------->  I want: anything +'()'
+description=   \rPython \anything()\r *any text here*\r ---------> I want: *any text here*
